@@ -1,0 +1,12 @@
+version: "3.4"
+
+services:
+  monkeygo:
+    image: monkeygo
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/go/src/monkey-go
+    ports:
+      - 3000:3000
