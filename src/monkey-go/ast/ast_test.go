@@ -1,7 +1,7 @@
 package ast
 
 import (
-	"moneky-go/token"
+	"monkey-go/token"
 	"testing"
 )
 
