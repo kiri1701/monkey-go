@@ -7,6 +7,6 @@ services:
       context: .
       dockerfile: ./Dockerfile
     volumes:
-      - ./:/go/src/monkey-go
+      - ./src/monkey-go:/work:cached
     ports:
       - 3000:3000

@@ -1,5 +1,5 @@
 FROM golang:1.16-buster
 
-RUN mkdir /go/src/monkey-go
+RUN mkdir work
 
-WORKDIR /go/src/monkey-go
+WORKDIR /work
